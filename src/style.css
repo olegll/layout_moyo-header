@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial, sans-serif;
   margin: 0;
 }
 
@@ -20,6 +20,11 @@ body {
 .logo__link {
   text-decoration: none;
   display: flex;
+}
+
+.logo__img {
+  width: 40px;
+  height: 40px;
 }
 
 .nav__list {
@@ -37,7 +42,7 @@ body {
   display: flex;
 }
 
-.model :first-child {
+.item__first {
   margin-left: 0;
 }
 
